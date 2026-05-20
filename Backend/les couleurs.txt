@@ -1,0 +1,32 @@
+les couleur
+body {
+    font-family: inter, sans-serif;
+
+}
+
+if(background=="#764ba2"){
+    h1:#fff
+    h2:#fff
+}
+else{
+    h1:#764ba2
+    h2:#764ba2
+}
+input ,textera{
+ padding: 0.75rem 1rem;
+  border: 2px solid #e5e7eb;
+  border-radius: 0.5rem;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+  font-family: inter, sans-serif;
+  background-color: #f9fafb;
+  }
+input:invalid:not(:placeholder-shown) {
+ 
+  border:2px solid #ef4444
+}
+
+input:valid:not(:placeholder-shown) {
+
+  border:2px solid #10b981
+}
