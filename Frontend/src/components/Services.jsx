@@ -1,34 +1,35 @@
 import React from 'react';
 import './Services.css';
+import { FaShoppingCart, FaExchangeAlt, FaTools, FaHeadset, FaTruck, FaShieldAlt } from 'react-icons/fa';
 
 const servicesData = [
   {
-    icon: '🛒',
+    icon: <FaShoppingCart />,
     title: 'Vente de Produits',
     description: 'Nous proposons une large gamme de composants informatiques neufs : cartes mères, processeurs, RAM, SSD, claviers, souris et bien plus. Des produits certifiés, garantis et disponibles immédiatement.'
   },
   {
-    icon: '💰',
+    icon: <FaExchangeAlt />,
     title: 'Achat & Reprise',
     description: 'Vous souhaitez vendre vos anciens composants ? Nous rachetons vos pièces PC d\'occasion après évaluation. Estimation rapide, paiement immédiat et processus transparent.'
   },
   {
-    icon: '🔧',
+    icon: <FaTools />,
     title: 'Réparation',
     description: 'Notre équipe de techniciens qualifiés diagnostique et répare tous types de pannes : carte mère, alimentation, écran, clavier, et autres composants. Devis gratuit avant toute intervention.'
   },
   {
-    icon: '🔄',
+    icon: <FaHeadset />,
     title: 'Service Après-Vente (SAV)',
     description: 'Après votre achat, nous restons à votre disposition. Remplacement sous garantie, assistance technique, suivi de votre dossier — votre satisfaction est notre priorité.'
   },
   {
-    icon: '📦',
+    icon: <FaTruck />,
     title: 'Livraison & Retour',
     description: 'Livraison rapide à domicile ou en point relais. Retour facile sous 14 jours si le produit ne vous convient pas, sans frais cachés.'
   },
   {
-    icon: '🛡️',
+    icon: <FaShieldAlt />,
     title: 'Garantie & Fiabilité',
     description: 'Tous nos produits sont couverts par une garantie constructeur. Nous travaillons uniquement avec des marques reconnues pour vous assurer qualité et durabilité.'
   }

@@ -56,7 +56,9 @@
 
 .whyus-icon {
   font-size: 2.2rem;
-  line-height: 1;
+  color: #00BFFF; /* Vibrant sky blue matching brand identity */
+  display: flex;
+  align-items: center;
   margin-bottom: 0.4rem;
 }
 

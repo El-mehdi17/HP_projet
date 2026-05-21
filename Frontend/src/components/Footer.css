@@ -131,8 +131,12 @@
 
 .footer-icon {
   font-size: 1rem;
+  color: #00BFFF; /* Vibrant premium sky blue matching the brand logo */
   flex-shrink: 0;
-  margin-top: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 1.5rem;
 }
 
 /* Bottom Bar */

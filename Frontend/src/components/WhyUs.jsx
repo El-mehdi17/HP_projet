@@ -1,34 +1,35 @@
 import React from 'react';
 import './WhyUs.css';
+import { FaTrophy, FaFileInvoiceDollar, FaTools, FaBolt, FaShieldAlt, FaHandshake } from 'react-icons/fa';
 
 const reasons = [
   {
-    icon: '🏆',
+    icon: <FaTrophy />,
     title: 'Techniciens certifiés',
     desc: 'Notre équipe possède des certifications reconnues et une expertise terrain solide.'
   },
   {
-    icon: '💰',
+    icon: <FaFileInvoiceDollar />,
     title: 'Devis gratuit',
     desc: 'Obtenez une estimation transparente sans engagement avant toute intervention.'
   },
   {
-    icon: '🔩',
+    icon: <FaTools />,
     title: 'Pièces d\'origine',
     desc: 'Nous utilisons exclusivement des composants authentiques et certifiés constructeur.'
   },
   {
-    icon: '⚡',
+    icon: <FaBolt />,
     title: 'Intervention rapide',
     desc: 'Délais courts et efficacité maximale pour minimiser votre temps d\'arrêt.'
   },
   {
-    icon: '🛡️',
+    icon: <FaShieldAlt />,
     title: 'Garantie réparation',
     desc: 'Chaque réparation est couverte par une garantie pour votre tranquillité d\'esprit.'
   },
   {
-    icon: '🤝',
+    icon: <FaHandshake />,
     title: 'Service personnalisé',
     desc: 'Un accompagnement sur mesure adapté à vos besoins, particuliers ou entreprises.'
   }

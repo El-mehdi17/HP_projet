@@ -1,5 +1,6 @@
 import React from 'react';
 import './Footer.css';
+import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope, FaClock } from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -37,19 +38,19 @@ const Footer = () => {
           <div className="footer-divider"></div>
           <ul className="footer-contact-list">
             <li>
-              <span className="footer-icon">📍</span>
+              <span className="footer-icon"><FaMapMarkerAlt /></span>
               <span>Casablanca, Morocco</span>
             </li>
             <li>
-              <span className="footer-icon">📞</span>
+              <span className="footer-icon"><FaPhoneAlt /></span>
               <span>+212 63 53 45 12</span>
             </li>
             <li>
-              <span className="footer-icon">✉️</span>
+              <span className="footer-icon"><FaEnvelope /></span>
               <span>contact@hp-informatique.dz</span>
             </li>
             <li>
-              <span className="footer-icon">🕐</span>
+              <span className="footer-icon"><FaClock /></span>
               <span>Lun – Sam : 08h00 – 18h00</span>
             </li>
           </ul>

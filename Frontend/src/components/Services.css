@@ -59,9 +59,25 @@
 }
 
 .service-icon {
-  font-size: 3rem;
-  margin-bottom: 1rem;
-  display: block;
+  font-size: 2rem;
+  margin-bottom: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, rgba(109, 40, 217, 0.25), rgba(59, 130, 246, 0.25));
+  border: 1px solid rgba(109, 40, 217, 0.4);
+  margin: 0 auto 1.2rem auto;
+  color: #a78bfa;
+  transition: background 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+.service-card:hover .service-icon {
+  background: linear-gradient(135deg, rgba(109, 40, 217, 0.5), rgba(59, 130, 246, 0.5));
+  color: #ffffff;
+  transform: scale(1.1);
 }
 
 .service-card-title {
