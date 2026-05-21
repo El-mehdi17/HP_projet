@@ -1,12 +1,15 @@
 import { useState } from 'react'
 import './App.css'
 import Navbar from './components/Navbar'
+import Hero from './components/Hero'
+import Services from './components/Services'
 
 function App() {
   return (
     <div className="app-container">
       <Navbar />
-      <h1 style={{textAlign: 'center', marginTop: '20vh', fontSize: '3rem'}}>HP Projet - Coming Soon</h1>
+      <Hero />
+      <Services />
     </div>
   )
 }
