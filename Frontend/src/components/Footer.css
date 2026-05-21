@@ -1,0 +1,148 @@
+.footer {
+  background: linear-gradient(135deg, #1e0a3c 0%, #2d1b69 50%, #1a1040 100%);
+  border-top: 1px solid rgba(139, 92, 246, 0.3);
+  margin-top: 4rem;
+  padding-top: 3rem;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem 3rem;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1.5fr;
+  gap: 3rem;
+}
+
+@media (max-width: 900px) {
+  .footer-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+/* Brand */
+.footer-brand {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.footer-hp-logo {
+  width: 44px;
+  height: 44px;
+  background: linear-gradient(135deg, #00BFFF, #1E90FF);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: serif;
+  box-shadow: 0 4px 15px rgba(30, 144, 255, 0.4);
+  flex-shrink: 0;
+}
+
+.footer-brand-name {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #f8fafc;
+  letter-spacing: 0.5px;
+}
+
+.footer-desc {
+  font-size: 0.9rem;
+  color: rgba(203, 213, 225, 0.7);
+  line-height: 1.7;
+  max-width: 280px;
+}
+
+/* Columns */
+.footer-col {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.footer-heading {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #f8fafc;
+  letter-spacing: 0.5px;
+}
+
+.footer-divider {
+  width: 30px;
+  height: 2px;
+  background: linear-gradient(90deg, #8b5cf6, #00BFFF);
+  border-radius: 2px;
+  margin-top: -0.5rem;
+}
+
+/* Quick Links */
+.footer-links {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.footer-links a {
+  font-size: 0.95rem;
+  color: rgba(203, 213, 225, 0.7);
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.footer-links a:hover {
+  color: #8b5cf6;
+  transform: translateX(4px);
+}
+
+/* Contact List */
+.footer-contact-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+}
+
+.footer-contact-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.7rem;
+  color: rgba(203, 213, 225, 0.7);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.footer-icon {
+  font-size: 1rem;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+/* Bottom Bar */
+.footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 1.2rem 2rem;
+  text-align: center;
+}
+
+.footer-bottom p {
+  font-size: 0.85rem;
+  color: rgba(203, 213, 225, 0.5);
+}
