@@ -1,7 +1,7 @@
 import React from 'react';
 import './Hero.css';
 
-const Hero = () => {
+const Hero = ({ onLoginClick, onRegisterClick }) => {
   return (
     <section className="hero" id="accueil">
       <div className="hero-overlay"></div>
@@ -18,8 +18,8 @@ const Hero = () => {
           disposition pour assurer performance, qualité et satisfaction.
         </p>
         <div className="hero-actions">
-          <button className="btn-primary">Inscription</button>
-          <button className="btn-secondary">Connexion</button>
+          <button className="btn-primary" onClick={onRegisterClick}>Inscription</button>
+          <button className="btn-secondary" onClick={onLoginClick}>Connexion</button>
         </div>
       </div>
     </section>
