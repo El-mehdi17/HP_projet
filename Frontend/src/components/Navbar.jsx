@@ -1,7 +1,8 @@
 import React from 'react';
 import './Navbar.css';
+import { FaUserCircle, FaSignOutAlt } from 'react-icons/fa';
 
-const Navbar = () => {
+const Navbar = ({ currentUser, onLoginClick, onLogout }) => {
   return (
     <nav className="navbar glass">
       <div className="navbar-container">
@@ -22,7 +23,20 @@ const Navbar = () => {
         </ul>
 
         <div className="nav-actions">
-          <button className="btn-connexion glass">CONNEXION</button>
+          {currentUser ? (
+            <div className="navbar-user-profile">
+              <FaUserCircle className="user-avatar-icon" />
+              <div className="user-info-text">
+                <span className="user-welcome-name">{currentUser.name}</span>
+                <span className="user-welcome-details">{currentUser.details}</span>
+              </div>
+              <button className="btn-logout-nav" onClick={onLogout} title="Déconnexion">
+                <FaSignOutAlt />
+              </button>
+            </div>
+          ) : (
+            <button className="btn-connexion glass" onClick={onLoginClick}>CONNEXION</button>
+          )}
         </div>
       </div>
     </nav>
