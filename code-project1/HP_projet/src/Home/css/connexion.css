@@ -1,0 +1,114 @@
+.connexion-page {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.connexion-card {
+  background: white;
+  border-radius: 20px;
+  padding: 2.5rem;
+  width: 100%;
+  max-width: 420px;
+  box-shadow: 0 8px 30px rgba(102, 126, 234, 0.15);
+}
+
+.connexion-card h1 {
+  font-size: 1.8rem;
+  font-weight: 800;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 0.3rem;
+}
+
+.connexion-card .sub {
+  color: #888;
+  font-size: 0.95rem;
+  margin-bottom: 1.8rem;
+}
+
+.connexion-card .form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  margin-bottom: 1rem;
+}
+
+.connexion-card .form-group label {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.connexion-card .form-group input {
+  padding: 0.75rem 1rem;
+  border: 1.5px solid #e0e0e0;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  outline: none;
+  transition: border-color 0.2s;
+  font-family: inherit;
+}
+
+.connexion-card .form-group input:focus {
+  border-color: #667eea;
+}
+
+.btn-connexion {
+  width: 100%;
+  padding: 0.9rem;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+  border: none;
+  border-radius: 50px;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: opacity 0.2s;
+  margin-top: 0.5rem;
+}
+
+.btn-connexion:hover { opacity: 0.85; }
+
+.connexion-card .msg-ok { color: #16a34a; font-weight: 600; text-align: center; margin-bottom: 0.5rem; }
+
+.register-link {
+  text-align: center;
+  margin-top: 1.2rem;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.register-link a {
+  color: #667eea;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.register-link a:hover { text-decoration: underline; }
+
+
+.input-eye {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.input-eye input {
+  width: 100%;
+  padding-right: 2.8rem;
+}
+
+.eye-btn {
+  position: absolute;
+  right: 0.75rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 0;
+  line-height: 1;
+}
